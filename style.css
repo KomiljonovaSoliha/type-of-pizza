@@ -1,0 +1,830 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(47, 31, 31);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bag {
+    display: flex;
+    gap: 20px;
+}
+
+.bag button {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    border: none;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.bag i {
+    font-size: 40px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    border: 2px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: white;
+    margin-top: 40px;
+}
+
+.left-text p {
+    width: 350px;
+}
+
+.left-text h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.left-text img {
+    width: 272px;
+}
+
+.right img {
+    height: 600px;
+}
+
+.hero-section {
+    text-align: center;
+    color: white;
+
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    width: 200px;
+    height: 62px;
+    border-radius: 100px;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    color: white;
+    border: none;
+
+}
+
+.type-pizza {
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+    gap: 10px;
+}
+
+.type-pizza img {
+    width: 159px;
+    height: 157px;
+
+
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-1,
+.number-2,
+.number-3 {
+    width: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    height: auto;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.number-1:hover,
+.number-2:hover,
+.number-3:hover {
+    background-color: rgb(255, 94, 0);
+    border: 2px solid rgb(255, 94, 0);
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+
+.zakaz {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.minus {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.plus {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(255, 94, 0);
+    padding-top: 6px;
+}
+
+.add {
+    background: none;
+    border: 1px solid rgb(255, 94, 0);
+    color: orangered;
+    width: 194px;
+    height: 39px;
+    border-radius: 80px;
+
+}
+
+.order {
+    width: 194px;
+    height: 45px;
+    border-radius: 84px;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    border: none;
+
+
+}
+
+.hero-section-pitza {
+    display: flex;
+}
+
+.bigger {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.main-img {
+    position: relative;
+}
+
+.main-img h1 {
+    position: absolute;
+    bottom: 7rem;
+    background: none;
+    left: 22rem;
+}
+
+.events {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    border: none;
+    border-radius: 10px;
+}
+
+.card h3 {
+    position: absolute;
+    background: none;
+    color: white;
+    font-size: 22px;
+    width: 100px;
+    bottom: 120px;
+    margin-left: 30px;
+}
+
+.card h2 {
+    position: absolute;
+    background: none;
+    color: white;
+    font-size: 22px;
+    width: 150px;
+    bottom: 120px;
+    margin-left: 30px;
+}
+
+.card button {
+    position: absolute;
+    width: 204px;
+    border: none;
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    height: 38px;
+    border-radius: 32px;
+    bottom: 30px;
+    margin-left: 30px;
+}
+
+.text {
+    color: white;
+    text-align: end;
+    margin-top: 8rem;
+}
+
+.textt {
+    display: block;
+}
+
+.text p {
+    width: 310px;
+    color: #A3A3A3;
+}
+
+.rasm {
+    width: 553px;
+}
+
+.project {
+    width: 290px;
+    height: 260px;
+}
+
+.mini-pizza {
+    position: relative;
+
+}
+
+.mini-pizza img {
+    position: absolute;
+    background: none;
+}
+
+.paragraf {
+    margin-top: 200px;
+}
+
+.about-us {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.left-pizza {
+    color: #A3A3A3;
+    width: 550px;
+
+}
+
+.left-pizza h1 {
+    font-weight: 900;
+}
+
+.mini-1 {
+    z-index: 1;
+}
+
+.mini-2 {
+    left: 70px;
+    top: -25px;
+    z-index: 2;
+}
+
+.mini-3 {
+    left: 160px;
+
+}
+
+.mini-4 {
+    left: 190px;
+    top: -25px;
+    z-index: 2;
+}
+
+.mini-5 {
+    left: 330px;
+    z-index: 1;
+    top: 10px;
+}
+
+.right-pizza img {
+    height: 500px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.part h3 {
+    color: white;
+    margin-left: 28px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-1,
+.menu-2,
+.menu-3,
+.menu-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-1 a,
+.menu-2 a,
+.menu-3 a,
+.menu-4 a {
+    color: #515151;
+
+}
+
+.footer-img {
+    width: 200px;
+    height: 40px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    gap: 200px;
+}
+
+.tg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 94, 0);
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+
+@media(min-width:1025px) and (max-width:1280px) {
+
+    .hero-section-pitza {
+        width: 100%;
+    }
+
+    .type-pizza {
+        width: 300px;
+        gap: 10px;
+
+    }
+
+    .add {
+        width: 100px;
+        padding: 2px;
+
+    }
+
+    .type-pizza img {
+        margin-left: 35px;
+    }
+
+    .prices {
+        gap: 10px;
+    }
+
+    .order {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .btn button {
+        width: 150px;
+
+    }
+
+    .text {
+        display: none;
+    }
+
+    .rasm {
+        width: 250px;
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .right img {
+        width: 350px;
+    }
+
+    .type-pizza img {
+        margin-left: 10px;
+    }
+
+    .type-pizza {
+        width: 200px;
+    }
+
+    .add {
+        width: 100px;
+        padding: 2px;
+
+    }
+
+    .prices {
+        gap: 10px;
+    }
+
+    .order {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .main-img h1 {
+        bottom: 50px;
+        left: 60px;
+    }
+
+    .card img {
+        width: 690px;
+        align-items: center;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .rasm {
+        display: none;
+    }
+
+    .about-us {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+
+    ul {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .btn button {
+        width: 150px;
+    }
+
+    .type-pizza {
+        width: 250px;
+    }
+
+    .type-pizza img {
+        margin-left: 50px;
+    }
+
+    .prices {
+        gap: 10px;
+        margin-left: 50px;
+    }
+
+    .numbers {
+        justify-content: space-around;
+    }
+
+    .main-img h1 {
+        bottom: 20px;
+        left: 30px;
+    }
+
+    .hero-section-pitza {
+        flex-wrap: wrap;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .card img {
+        width: 520px;
+    }
+
+    .rasm {
+        display: none;
+    }
+
+    .about-us {
+        flex-direction: column-reverse;
+    }
+
+    .paragraf {
+        width: 100%;
+    }
+
+    .mini-5 {
+        width: 150px;
+    }
+
+    .left-pizza {
+        width: 100%;
+    }
+
+    .left-pizza p {
+        width: 90%;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    ul {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .left-text {
+        width: 100%;
+    }
+
+    .type-pizza {
+        width: 220px;
+
+    }
+
+    .hero-section-pitza {
+        flex-wrap: wrap;
+    }
+
+    .prices {
+        gap: 10px;
+
+        flex-direction: column;
+    }
+
+
+    .numbers {
+        justify-content: space-around;
+    }
+
+    .order {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .add {
+        width: 100px;
+        padding: 2px;
+
+    }
+
+
+
+    .main-img h1 {
+        bottom: 30px;
+        left: 60px;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .rasm {
+        display: none;
+    }
+
+    .card img {
+        width: 450px;
+    }
+
+    .about-us {
+        flex-direction: column-reverse;
+    }
+
+    .left-pizza {
+        width: 100%;
+    }
+
+    .right-pizza img {
+        width: 100%;
+    }
+
+    .mini-5 {
+        width: 135px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+@media (max-width:395px) {
+
+    .right img {
+        width: 100%;
+
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .left-pizza h1 {
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        font-weight: 900;
+    }
+
+    .left-text h1 {
+        text-align: center;
+    }
+
+    .left-text p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .left-text h4 {
+        text-align: center;
+    }
+
+    .left-text img {
+        padding-left: 90px;
+    }
+
+    .container {
+        padding: 10px 0px;
+    }
+
+    .hero-section .btn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+
+    .bag {
+        gap: 0;
+    }
+
+    .type-pizza p {
+        width: 300px;
+        text-align: start;
+    }
+
+    .btn button {
+        width: 250px;
+        margin-left: 50px;
+        background: rgb(71, 50, 50);
+    }
+
+    .btn button:hover {
+        background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+        ;
+    }
+
+    .deletet-it {
+        display: none;
+    }
+
+    .type-pizza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .type-pizza img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-img img {
+        margin-bottom: 10px;
+
+    }
+
+    .hero-section-pitza .type-pizza .add {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add button {
+        width: 100px;
+
+    }
+
+    .card img {
+        width: 370px;
+    }
+
+    .mini-5 {
+        display: none;
+    }
+
+    .mini-4 {
+        display: none;
+        border: 1px solid white;
+    }
+
+    .numbers {
+        gap: 70px;
+    }
+
+    .bigger {
+        height: 150px;
+    }
+
+    .order {
+        width: 280px;
+    }
+
+    .add {
+        width: 280px;
+    }
+
+    .zakaz {
+        gap: 40px;
+        display: flex;
+    }
+
+    .textt {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        color: white;
+    }
+
+    .textt h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .menu-1 a,
+    .menu-2 a,
+    .menu-3 a,
+    .menu-4 a {
+        color: rgb(255, 94, 0);
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .tg {
+        margin-top: 50px;
+    }
+}
